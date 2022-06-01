@@ -1,0 +1,69 @@
+Terraform : 
+ --Terraform is IAC tool.
+ --ARM Templates & Terraform both are IAC tools for Azure infrastructure creation.
+ -- Terraform is used for Reusable of your code.
+ -- Terraform supports multicloud provider.
+ -- Terraform is easy to learn and understand
+ -- terraform consists "Statefile".
+
+If you want to create any resource in Azure cloud by using Terraform . we have a 3 blocks.
+
+1. Terraform version block
+2. Cloud Provider block
+3. Resources Block.
+
+
+Please explain about Terraform Lifecycle ?
+
+1. Terraform Init : It will download your provided cloud provider related libraies, binaries, packages/ dependcies.
+2. Terraform plan : it will shows you to what are the resources you are creating.
+                  : Statefile -- it will store your created infrastructure information.
+3. Terraform Apply : it will use to create a resources.
+4. Terraform Destory : if you want to delete your created resources.
+5. Terraform Validate : it will check is there any sytntax issues or there in your script.
+
+ How to install Terraform in Windows ?
+
+ Where your terraform scripts are stored ?
+
+ we are storing the terraform scripts in Azure Repos or Azure Storage( Blob or Conatiner).
+
+
+Interview questions for Terraform :
+
+1. What is the Difference between the Terraform and ARM templates.
+2. please explain Terraform Lifecycle
+3. what is Terraform statefile ?
+4. when the statefile is created ? 
+5. what is terrafom taint commend
+6. who will write your terraform scripts ?
+7. where your terraform scripts are stored ?
+8.please write a terraform script for creating a vm ?
+9.for example :
+
+ you are created a azure vm by using the terraform, that vm i am deleted manuval in the azure portal
+ tell me if i run the terraform commends again the new vm will be created or not ?
+
+10. what is the difference between the terraform statefile and current state ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
