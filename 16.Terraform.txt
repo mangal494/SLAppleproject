@@ -11,7 +11,7 @@ If you want to create any resource in Azure cloud by using Terraform . we have a
 1. Terraform version block
 2. Cloud Provider block
 3. Resources Block.
-
+--- 
 
 Please explain about Terraform Lifecycle ?
 
